@@ -131,7 +131,7 @@ discord.py-template/
    ```
    cd discord.py-template
    ```
-2. Set up a virtual environment:
+2. Set up a virtual environment (optional but recommended):
    - On Windows:
      ```
      python -m venv venv
