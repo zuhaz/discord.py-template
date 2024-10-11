@@ -126,18 +126,30 @@ discord.py-template/
 1. Clone the repository:
    ```
    git clone https://github.com/zuhaz/discord.py-template.git
+   ```
+   Change the directory to the cloned repository:
+   ```
    cd discord.py-template
    ```
-
-2. Create a virtual environment (optional but recommended):
-   ```
-   python -m venv venv
-   source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
-   ```
+2. Set up a virtual environment:
+   - On Windows:
+     ```
+     python -m venv venv
+     venv\Scripts\activate
+     ```
+   - On macOS/Linux:
+     ```
+     python3 -m venv venv
+     source venv/bin/activate
+     ```
 
 3. Install the required dependencies:
    ```
    pip install -r requirements.txt
+   ```
+   If you encounter any issues, try updating pip first:
+   ```
+   python -m pip install --upgrade pip
    ```
 
 4. Set up your configuration:
